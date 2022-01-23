@@ -1,9 +1,5 @@
 name: JAVA Formatting
-on:
-  push:
-    branches: [ main, develop ]
-  pull_request:
-    branches: [ main, develop ]
+on: [push, pull_request]
 
 
 jobs:
